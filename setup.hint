@@ -1,0 +1,4 @@
+category: X11
+requires: cygwin libX11_6 libXrandr2
+sdesc: "Xorg XRandR command-line interface"
+ldesc: "Xorg XRandR command-line interface"
