@@ -1,25 +1,24 @@
 xrandr
 ------------------------------------------
-Xorg XRandR command-line interface
+X.Org XRandR command-line interface
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  libX11_6-1.1.3-1
-  libXrandr2-1.2.1-1
+  cygwin-1.5.25-15
+  libX11_6-1.1.5-1
+  libXrandr2-1.2.3-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
-  autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
-  binutils-20060817-1
-  cygport-0.3.5-1
-  gawk-3.1.5-4
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-1
+  binutils-20080624-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
-  xorg-util-macros-1.1.5-1
+  xorg-util-macros-1.1.6-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -30,29 +29,31 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xrandr-1.2.2-X-src.tar.bz2
+  unpack xrandr-1.2.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xrandr-1.2.2-X.cygport all
+  cygport ./xrandr-1.2.3-X.cygport all
 
 This will create:
-  /usr/src/xrandr-1.2.2-X-src.tar.bz2
-  /usr/src/xrandr-1.2.2-X.tar.bz2
+  /usr/src/xrandr-1.2.3-X-src.tar.bz2
+  /usr/src/xrandr-1.2.3-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/xrandr.exe
-  /usr/share/doc/Cygwin/xrandr-1.2.2.README
-  /usr/share/doc/xrandr-1.2.2/COPYING
-  /usr/share/doc/xrandr-1.2.2/ChangeLog
+  /usr/share/doc/xrandr-1.2.3/COPYING
+  /usr/share/doc/xrandr-1.2.3/ChangeLog
   /usr/share/man/man1/xrandr.1.gz
 
 ------------------
 
 Port Notes:
+
+----- version 1.2.3-1 -----
+Version bump for X11R7.4.
 
 ----- version 1.2.2-1 -----
 Version bump for X11R7.3.
