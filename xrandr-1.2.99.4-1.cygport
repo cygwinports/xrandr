@@ -1,0 +1,9 @@
+inherit xorg
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	# nickle interpreter isn't in the distro yet
+	rm -f ${D}/usr/bin/xkeystone
+}
