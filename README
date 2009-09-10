@@ -14,7 +14,7 @@ Build requirements:
   automake1.10-1.10.2-10
   binutils-2.19.51-1
   cygport-0.9.9-1
-  gawk-3.1.6-2
+  gawk-3.1.7-1
   gcc4-core-4.3.2-2
   make-3.81-2
   pkg-config-0.23b-10
@@ -30,15 +30,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xrandr-1.3.1-X-src.tar.bz2
+  unpack xrandr-1.3.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xrandr-1.3.1-X.cygport all
+  cygport ./xrandr-1.3.2-X.cygport all
 
 This will create:
-  /usr/src/xrandr-1.3.1-X-src.tar.bz2
-  /usr/src/xrandr-1.3.1-X.tar.bz2
+  /usr/src/xrandr-1.3.2-X-src.tar.bz2
+  /usr/src/xrandr-1.3.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -53,7 +53,7 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 1.3.1-1 -----
+----- version 1.3.2-1 -----
 Version bump.
 
 ----- version 1.3.0-10 -----
