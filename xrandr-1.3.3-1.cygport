@@ -4,6 +4,6 @@ src_install() {
 	cd ${B}
 	cyginstall
 
-	# nickle interpreter isn't in the distro yet
+	# nickle interpreter uses asynchronous I/O not supported by Cygwin
 	rm -f ${D}/usr/bin/xkeystone
 }
