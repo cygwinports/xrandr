@@ -1,4 +1,0 @@
-category: X11
-requires: libX11_6 libXrandr2
-sdesc: "X.Org XRandR command-line interface"
-ldesc: "X.Org XRandR command-line interface"

@@ -1,0 +1,17 @@
+inherit xorg
+
+NAME="xrandr"
+VERSION=1.4.1
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X RandR command-line interface"
+DESCRIPTION="Xrandr is used to set the size, orientation and/or reflection of
+the outputs for a screen. It can also set the screen size."
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	# nickle interpreter uses asynchronous I/O not supported by Cygwin
+	rm -f ${D}/usr/bin/xkeystone
+}

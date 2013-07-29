@@ -1,9 +1,0 @@
-inherit xorg
-
-src_install() {
-	cd ${B}
-	cyginstall
-
-	# nickle interpreter uses asynchronous I/O not supported by Cygwin
-	rm -f ${D}/usr/bin/xkeystone
-}
