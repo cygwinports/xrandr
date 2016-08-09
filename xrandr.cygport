@@ -1,7 +1,7 @@
 inherit xorg
 
 NAME="xrandr"
-VERSION=1.4.3
+VERSION=1.5.0
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="X RandR command-line interface"
